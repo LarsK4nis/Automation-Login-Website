@@ -1,8 +1,8 @@
 # Automation Login Website With Selenium Webdriver
 Script writen in python oriented to automation login website. This one could be used for login in diferents websites as Instagram, Facebook and others social networks. 
 
-## Paquets Installation 
-First at all, we're gonna install Selenium 
+## Packages Installation 
+First at all, Selenium installation package for python: 
 
 ```
 pip install selenium
