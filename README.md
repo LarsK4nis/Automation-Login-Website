@@ -3,9 +3,9 @@ Script writen in python oriented to automation login website. This one could be 
 
 ## Building Proyect 
 The proyect is distributed in:
-1 - BrowserDriver (Chrome, Mozilla, Opera...)
-2 - Python Script
-3 - Yml file oriented to abstract code
+1. BrowserDriver (Chrome, Mozilla, Opera...)
+2. Python Script
+3. Yml file oriented to abstract code
 
 ## Packages Installation 
 First at all, Selenium installation package for python: 
