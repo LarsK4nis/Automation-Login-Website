@@ -17,6 +17,7 @@ pip install selenium
 ## Driver Installation
 In this website you're gonna find several SO and versions for ChromeWebDriver. Choose which fits with you.
 * [Chromium](https://chromedriver.chromium.org/downloads)
+* [Firefox Web Driver](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/firefox.html)
 
 
 ## Documentation
