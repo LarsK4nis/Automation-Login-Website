@@ -13,8 +13,8 @@ driver = webdriver.Chrome() # DRIVER BROWSER CHOSEN
 
 def login(url,username, username1, password, password1): 
    driver.get(url) # LOAD WEB PAGE ON THE DRIVER 
-   driver.find_element(By.NAME, username).send_keys(username1) 
-   driver.find_element(By.NAME, password).send_keys(password1)
+   driver.find_element(By.NAME, username).send_keys(username1) #LOCATE USER FIELD AND "WRITE" YOUR YML USERNAME INFO
+   driver.find_element(By.NAME, password).send_keys(password1) #LOCATE PASSWORD FIELD AND "WRITE" YOUR YML PASSWORD INFO
    driver.find_element(By.LINK_TEXT,'BUTTON_NAME').click() # IF THE BUTTON IS NOT LOCATED BY LINK_TEXT TRY OTHERS LISTED IN DOCUMENTATION (By Module Info)
 
 
