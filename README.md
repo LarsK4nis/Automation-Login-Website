@@ -8,7 +8,7 @@ The proyect is distributed in:
 3. Yml file oriented to abstract code.
 
 ## Packages Installation 
-First at all, Selenium installation package for python: 
+Selenium installation package for python: 
 
 ```
 pip install selenium
