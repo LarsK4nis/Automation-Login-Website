@@ -10,21 +10,14 @@ usuario = configuration ['data_user']['user']
 passwd = configuration ['data_user']['password']
 
 driver = webdriver.Chrome() # DRIVER BROWSER CHOSEN 
-css1 = ".login .content .form-actions .btn-success" # CSS selector used for button in Login Fonction
 
 def login(url,username, username1, password, password1): 
-   driver.get(url)
-   driver.find_element(By.NAME, username).send_keys(username1)
+   driver.get(url) # LOAD WEB PAGE ON THE DRIVER 
+   driver.find_element(By.NAME, username).send_keys(username1) 
    driver.find_element(By.NAME, password).send_keys(password1)
-   driver.find_element(By.LINK_TEXT,'Entrar').click()
+   driver.find_element(By.LINK_TEXT,'BUTTON_NAME').click() # IF THE BUTTON IS NOT LOCATED BY LINK_TEXT TRY OTHERS LISTED IN DOCUMENTATION (By Module Info)
 
 
 if(request.status_code == 200): # WEB PAGE TARGET COMPROBATION
-   login ("WEBPAGE__CHOSEN", "usernameOrEmailAddress", usuario, "password", passwd)
+   login ("WEBPAGE__CHOSEN", "username", usuario, "password", passwd)
    time.sleep(3)
-
-   #driver.find_element(By.LINK_TEXT,'Usuario').click() # LOOK FOR ELEMENT USER AND CLICK ON IT
-   #objetivoFichar = driver.find_element(By.LINK_TEXT,'Fichar').click() # DESPLEGAMOS DROP-MENU, LOCALIZAMOS FICHAR Y CLICKAMOS
-   #time.sleep(3)
-   #fichajeEstrella = driver.find_element(By.LINK_TEXT,'FICHAR').click() # CLICKAMOS EN FICHAR Y SE ACTUALIZA ESTADO PAR/IMPAR
-   
