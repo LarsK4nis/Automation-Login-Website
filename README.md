@@ -6,9 +6,7 @@ First at all, we're gonna install Selenium
 
 ```
 pip install selenium
-
 ```
-
 
 ## Driver Installation
 In this website you're gonna find several SO and versions. Choose which fits with you.
@@ -18,7 +16,6 @@ In this website you're gonna find several SO and versions. Choose which fits wit
 ## Documentation
 * [MediumArticle](https://medium.com/@kikigulab/how-to-automate-opening-and-login-to-websites-with-python-6aeaf1f6ae98)
 * [By Module Info](https://selenium-python.readthedocs.io/locating-elements.html)
-
 
 
 ## Author
