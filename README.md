@@ -26,6 +26,7 @@ In this websites you're gonna find several SO and versions for drivers. In our c
 ## Documentation
 * [MediumArticle](https://medium.com/@kikigulab/how-to-automate-opening-and-login-to-websites-with-python-6aeaf1f6ae98)
 * [By Module Info](https://selenium-python.readthedocs.io/locating-elements.html)
+* [Actions Chains and Exceptions]("https://selenium-python.readthedocs.io/api.html")
 
 
 ## Author
