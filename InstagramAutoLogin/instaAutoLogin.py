@@ -1,3 +1,5 @@
+#### THIS SCRIPT IS FONCTIONAL ONLY IF 2FA ACCOUNT IS DISABLED ####
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import yaml
