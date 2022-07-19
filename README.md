@@ -4,8 +4,8 @@ Script writen in python oriented to automation login website. This one could be 
 ## Building Proyect 
 The proyect is distributed in:
 1. BrowserDriver (Chrome, Mozilla, Opera...).
-2. Python Script.
-3. Yml file oriented to abstract code.
+2. Python Script creation and .yml credentials.
+3. Open terminal and type:
 
 ## Packages Installation 
 Selenium installation package for python: 
@@ -20,15 +20,6 @@ In this websites you're gonna find several SO and versions for drivers. In our c
 * [Firefox Web Driver](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/firefox.html)
 * [OperaChromiumDriver](https://github.com/operasoftware/operachromiumdriver)
 
-## How To Run
-1. Packages, Driver Installation 
-2. Python script creation and fill up your .yml file with your credentials
-3. Open terminal and type:
-```
-python script.py
-```
-4. Enjoy your little bot!
-
 ## Documentation
 * [MediumArticle](https://medium.com/@kikigulab/how-to-automate-opening-and-login-to-websites-with-python-6aeaf1f6ae98)
 * [By Module Info](https://selenium-python.readthedocs.io/locating-elements.html)
@@ -36,6 +27,6 @@ python script.py
 
 ## Author
 
-- [@LarsK4nis](https://github.com/LarsK4nis)
+- [@0t4peo](https://github.com/LarsK4nis)
 
 
