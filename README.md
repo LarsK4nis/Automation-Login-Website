@@ -16,7 +16,12 @@ Selenium installation package for python:
 ```
 pip install selenium
 ```
-
+```
+pip install pyyaml
+```
+```
+pip install requests
+```
 ## Driver Installation
 In this websites you're gonna find several SO and versions for drivers. In our case, we use Chromium, but can choose others.
 * [Chromium](https://chromedriver.chromium.org/downloads)
@@ -27,6 +32,8 @@ In this websites you're gonna find several SO and versions for drivers. In our c
 * [MediumArticle](https://medium.com/@kikigulab/how-to-automate-opening-and-login-to-websites-with-python-6aeaf1f6ae98)
 * [By Module Info](https://selenium-python.readthedocs.io/locating-elements.html)
 * [Actions Chains and Exceptions](https://selenium-python.readthedocs.io/api.html)
+* [Yaml Module](https://bobbyhadz.com/blog/python-no-module-named-yaml)
+
 
 
 ## Author
