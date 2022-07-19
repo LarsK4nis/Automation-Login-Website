@@ -1,11 +1,14 @@
 # Automation Login Website With Selenium Webdriver
 Script writen in python oriented to automation login website. This one could be used for login in diferents websites as Instagram, Facebook and others social networks. 
 
-## Building Proyect 
-The proyect is distributed in:
-1. BrowserDriver (Chrome, Mozilla, Opera...).
+## Introduction
+The proyect is distributed in diferent python templates oriented to clarify the login automation in WebSites.
+In this case, the scripts provides a first look to social networks automation. Each proyect need to contains 
+the following files.
+
+1. BrowserDriver (Chrome, Mozilla, Opera...)
 2. Python Script creation and .yml credentials.
-3. Open terminal and type:
+
 
 ## Packages Installation 
 Selenium installation package for python: 
