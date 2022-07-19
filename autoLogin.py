@@ -10,6 +10,8 @@ usuario = configuration ['data_user']['user']
 passwd = configuration ['data_user']['password']
 
 driver = webdriver.Chrome() # DRIVER BROWSER CHOSEN 
+driver.maximize_window()
+
 
 def login(url,username, username1, password, password1): 
    driver.get(url) # LOAD WEB PAGE ON THE DRIVER 

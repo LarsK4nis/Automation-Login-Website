@@ -20,6 +20,15 @@ In this websites you're gonna find several SO and versions for drivers. In our c
 * [Firefox Web Driver](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/firefox.html)
 * [OperaChromiumDriver](https://github.com/operasoftware/operachromiumdriver)
 
+## How To Run
+1. Packages, Driver Installation 
+2. Python script creation and fill up your .yml file with your credentials
+3. Open terminal and type:
+```
+python script.py
+```
+4. Enjoy your little bot!
+
 ## Documentation
 * [MediumArticle](https://medium.com/@kikigulab/how-to-automate-opening-and-login-to-websites-with-python-6aeaf1f6ae98)
 * [By Module Info](https://selenium-python.readthedocs.io/locating-elements.html)
